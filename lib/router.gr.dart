@@ -9,7 +9,7 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i6;
-import 'package:lets_animate/pages/containerTransform.dart' as _i1;
+import 'package:lets_animate/pages/container_transform.dart' as _i1;
 import 'package:lets_animate/pages/explicit.dart' as _i2;
 import 'package:lets_animate/pages/hero.dart' as _i3;
 import 'package:lets_animate/pages/home.dart' as _i4;
