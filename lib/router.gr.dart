@@ -1,3 +1,4 @@
+// dart format width=80
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 // **************************************************************************
@@ -19,10 +20,7 @@ import 'package:lets_animate/pages/implicit.dart' as _i5;
 /// [_i1.ContainerTransformPage]
 class ContainerTransformRoute extends _i6.PageRouteInfo<void> {
   const ContainerTransformRoute({List<_i6.PageRouteInfo>? children})
-      : super(
-          ContainerTransformRoute.name,
-          initialChildren: children,
-        );
+      : super(ContainerTransformRoute.name, initialChildren: children);
 
   static const String name = 'ContainerTransformRoute';
 
@@ -38,10 +36,7 @@ class ContainerTransformRoute extends _i6.PageRouteInfo<void> {
 /// [_i2.ExplicitPage]
 class ExplicitRoute extends _i6.PageRouteInfo<void> {
   const ExplicitRoute({List<_i6.PageRouteInfo>? children})
-      : super(
-          ExplicitRoute.name,
-          initialChildren: children,
-        );
+      : super(ExplicitRoute.name, initialChildren: children);
 
   static const String name = 'ExplicitRoute';
 
@@ -57,10 +52,7 @@ class ExplicitRoute extends _i6.PageRouteInfo<void> {
 /// [_i3.HeroPage]
 class HeroRoute extends _i6.PageRouteInfo<void> {
   const HeroRoute({List<_i6.PageRouteInfo>? children})
-      : super(
-          HeroRoute.name,
-          initialChildren: children,
-        );
+      : super(HeroRoute.name, initialChildren: children);
 
   static const String name = 'HeroRoute';
 
@@ -76,10 +68,7 @@ class HeroRoute extends _i6.PageRouteInfo<void> {
 /// [_i4.HomePage]
 class HomeRoute extends _i6.PageRouteInfo<void> {
   const HomeRoute({List<_i6.PageRouteInfo>? children})
-      : super(
-          HomeRoute.name,
-          initialChildren: children,
-        );
+      : super(HomeRoute.name, initialChildren: children);
 
   static const String name = 'HomeRoute';
 
@@ -95,10 +84,7 @@ class HomeRoute extends _i6.PageRouteInfo<void> {
 /// [_i5.ImplicitPage]
 class ImplicitRoute extends _i6.PageRouteInfo<void> {
   const ImplicitRoute({List<_i6.PageRouteInfo>? children})
-      : super(
-          ImplicitRoute.name,
-          initialChildren: children,
-        );
+      : super(ImplicitRoute.name, initialChildren: children);
 
   static const String name = 'ImplicitRoute';
 
