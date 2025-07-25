@@ -16,6 +16,8 @@ class PhotoHero extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //timeDilation = 5.0; // 1.0 means normal animation speed.
+
     return SizedBox(
       width: width,
       child: Hero(
@@ -41,18 +43,24 @@ class HeroPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    timeDilation = 5.0; // 1.0 means normal animation speed.
-
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Basic Hero Animation'),
+        leading: BackButton(
+          onPressed: () {
+            timeDilation = 1.0; // Reset time dilation to normal speed.
+            Navigator.of(context).pop();
+          },
+        ),
       ),
       body: Center(
         child: PhotoHero(
           photo: 'images/flippers-alpha.png',
           width: 300,
           onTap: () {
+            timeDilation = 5.0; // Speed up the animation for demo purposes.
+
             Navigator.of(context).push(MaterialPageRoute<void>(
               builder: (context) {
                 return Scaffold(

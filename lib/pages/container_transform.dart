@@ -38,7 +38,7 @@ class _ContainerTransformPageState extends State<ContainerTransformPage>
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Explicit Animation'),
+        title: const Text('Container Transform'),
       ),
       body: Center(
         child: Container(
